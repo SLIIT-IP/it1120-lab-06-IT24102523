@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class IT24102523Lab6Q2B{
+    public static void main(String[] args) {
+
+      Scanner input =new Scanner(System.in);
+      
+      System.out.println("Please enter 10 numbers : ");
+
+      System.out.println("Enter number 01 : ");
+      int num01 =input.nextInt();
+      
+      System.out.println("Enter number 02 : ");
+      int num02 =input.nextInt();
+
+      System.out.println("Enter number 03 : ");
+      int num03 =input.nextInt();
+
+      System.out.println("Enter number 04 : ");
+      int num04 =input.nextInt();
+
+      System.out.println("Enter number 05 : ");
+      int num05 =input.nextInt();
+
+      System.out.println("Enter number 06 : ");
+      int num06 =input.nextInt();
+
+      System.out.println("Enter number 07 : ");
+      int num07 =input.nextInt();
+
+      System.out.println("Enter number 08 : ");
+      int num08 =input.nextInt();
+
+      System.out.println("Enter number 09 : ");
+      int num09 =input.nextInt();
+
+      System.out.println("Enter number 10 : ");
+      int num10 =input.nextInt();
+
+      System.out.println(num01+" "+num02+" "+num03+" "+num04+" "+num05+" "+num06+" "+num07+" "+num08+" "+num09+" "+num10);
+    }
+
+}
